@@ -5,8 +5,22 @@ check that validates the profile content, contact link, and featured work.
 
 ## Run locally
 
-Open `index.html` in a browser. The page has no build step or runtime
-dependencies.
+Open `index.html` in a browser, or start the local server:
+
+```bash
+npm start
+```
+
+Then visit `http://localhost:3000`. The server has no runtime dependencies.
+
+## Build
+
+```bash
+npm run build
+```
+
+This validates the static files and copies the production-ready site to
+`dist/`.
 
 ## Test
 
