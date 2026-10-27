@@ -1,0 +1,17 @@
+{
+  "name": "ci",
+  "version": "1.0.0",
+  "description": "Simple profile website with health endpoint",
+  "main": "server.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://localhost:26831/Depleter/CI"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
