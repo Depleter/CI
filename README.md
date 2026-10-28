@@ -30,3 +30,12 @@ npm test
 
 The test suite uses Node's built-in test runner and covers both a healthy
 profile and incomplete profile data.
+
+## Continuous integration
+
+GitHub Actions runs the `verify` workflow on pushes to `main` and on pull
+requests. The workflow executes:
+
+```bash
+npm test
+```
